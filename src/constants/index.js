@@ -17,14 +17,13 @@ import {
     docker,
     meta,
     pivot,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     mysql,
-    bootstrap
+    bootstrap,
+    karibu_chakula,
+    lyriks,
+    pharm_pos,
+    worldwirepay,
   } from "../assets";
   
   export const navLinks = [
@@ -166,7 +165,7 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Pharmacy POS",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -175,7 +174,11 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "typescript",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "mysql",
           color: "green-text-gradient",
         },
         {
@@ -183,50 +186,56 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: pharm_pos,
+      source_code_link: "https://github.com/derrickgolden/pharmacy_pos_web",
+      demo_link: "https://pharmapos.netlify.app/"
     },
     {
-      name: "Job IT",
+      name: "Karibu Chakula",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to plan for their meals with preparation instructions and number of calories. Future plan is to customize the web app with local cuisines with the right database." ,     tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "redux",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: karibu_chakula,
+      source_code_link: "https://github.com/derrickgolden/Karibu_Chakula",
+      demo_link: "https://karibuchakula.netlify.app/"
+    },
+    {
+      name: "World Wire Transfer",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "express",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "nodejs",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "mysql",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: worldwirepay,
+      source_code_link: "https://github.com/derrickgolden/global_wire_pay",
+      demo_link: "https://worldwirepay.com/"
     },
   ];
   

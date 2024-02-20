@@ -28,9 +28,10 @@ import shopify from "./company/shopify.png";
 import pivot from "./company/pivot_logo_icon.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import karibu_chakula from "./karibu_chakula.png";
+import lyriks from "./lyriks.png";
+import pharm_pos from "./pharm_pos.png";
+import worldwirepay from "./worldwirepay.png";
 
 export {
   logo,
@@ -60,7 +61,8 @@ export {
   shopify,
   pivot,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  karibu_chakula,
+  lyriks,
+  pharm_pos,
+  worldwirepay,
 };
