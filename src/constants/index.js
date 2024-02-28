@@ -125,7 +125,7 @@ import {
       company_name: "Pivot Networks",
       icon: pivot,
       iconBg: "#383E56",
-      date: "Octomber 2023 - to date",
+      date: "October 2023 - to date",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -167,8 +167,7 @@ import {
     {
       name: "Pharmacy POS",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
+        "Point of Sale platform for a pharmacy to effectively sell medicine and print receipt. Also, analyze sales and payment reports with graphs and tables, including warnings on out-of-stock medicine.",      tags: [
         {
           name: "react",
           color: "blue-text-gradient",
@@ -188,7 +187,7 @@ import {
       ],
       image: pharm_pos,
       source_code_link: "https://github.com/derrickgolden/pharmacy_pos_web",
-      demo_link: "https://pharmapos.netlify.app/"
+      demo_link: "https://pharmapos.netlify.app/kjcc7BiGOqHZCw48zuEu82M0rHxImr1txrgkqqf"
     },
     {
       name: "Karibu Chakula",
@@ -214,8 +213,7 @@ import {
     {
       name: "World Wire Transfer",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
+      "Web application for transferring money internationally. The user will be able to send money using email to different currency wallets available in the platform that match the receiver wallet.",      tags: [
         {
           name: "react",
           color: "blue-text-gradient",

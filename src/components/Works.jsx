@@ -25,13 +25,13 @@ const ProjectCard = ({index,name, description, tags, image, demo_link,
         <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         <div className='flex justify-between m-3 '>
           <button onClick={() => window.open(demo_link, "_blank")}
-          className="bg-black-500 py-2 px-8 outline-none w-fit green-text-gradient
+          className="bg-black-500 py-2 px-2 outline-none w-fit green-text-gradient
             font-bold shadow-md shadow-primary rounded-xl"   
           >
             Live Demo
           </button>
           <button onClick={() => window.open(source_code_link, "_blank")}
-          className="bg-black-100 py-2 px-8 outline-none w-fit green-text-gradient
+          className="bg-black-100 py-2 px-2 outline-none w-fit green-text-gradient
             font-bold shadow-md shadow-primary rounded-xl flex gap-2"   
           >
             <img src={github} alt='github' className='w- h-5 object-contain'/>
