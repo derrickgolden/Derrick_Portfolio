@@ -187,7 +187,7 @@ import {
       ],
       image: pharm_pos,
       source_code_link: "https://github.com/derrickgolden/pharmacy_pos_web",
-      demo_link: "https://pharmapos.netlify.app/kjcc7BiGOqHZCw48zuEu82M0rHxImr1txrgkqqf"
+      demo_link: "https://pharmapos.netlify.app/#/kjcc7BiGOqHZCw48zuEu82M0rHxImr1txrgkqqf"
     },
     {
       name: "Karibu Chakula",
